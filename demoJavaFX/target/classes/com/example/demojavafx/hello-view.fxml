@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="Anchor1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1159.0" style="-fx-background-color: #b0bedb;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane id="cancelButton" fx:id="Anchor1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="1159.0" style="-fx-background-color: #b0bedb;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <TextField layoutX="516.0" layoutY="179.0" prefHeight="41.0" prefWidth="299.0" style="-fx-background-color: #b0bedb;" text="SAJ TEST PLANT PVT LTD.">
          <font>
@@ -19,7 +19,7 @@
          <children>
             <TextField layoutX="19.0" layoutY="41.0" prefHeight="33.0" prefWidth="290.0" style="-fx-background-radius: 8px;" />
             <TextField layoutX="19.0" layoutY="110.0" prefHeight="33.0" prefWidth="290.0" style="-fx-background-radius: 8px;" />
-            <Button fx:id="LogInButton" layoutX="19.0" layoutY="169.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="97.0" style="-fx-background-color: #022f8c; -fx-background-radius: 8px;" text="LogIn" textFill="#fdfafa">
+            <Button id="logInButton" fx:id="LogInButton" layoutX="19.0" layoutY="169.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="97.0" style="-fx-background-color: #022f8c; -fx-background-radius: 8px;" text="LogIn" textFill="#fdfafa">
                <font>
                   <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
